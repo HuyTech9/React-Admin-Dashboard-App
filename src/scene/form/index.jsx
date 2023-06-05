@@ -3,7 +3,6 @@ import { Formik } from 'formik';
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Header from "../../components/Header";
 import * as Yup from 'yup';
-import { tokens } from "../../theme";
 
 
 const initialValues = {
@@ -30,8 +29,7 @@ const userSchema = Yup.object().shape({
 });
 
 const Form = () => {
-    const theme = useTheme();
-    const colors = tokens(theme.palette.mode)
+   
 
     const isNonMobile = useMediaQuery("(min-width: 600px)");
     

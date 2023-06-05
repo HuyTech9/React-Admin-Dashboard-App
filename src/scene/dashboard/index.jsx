@@ -4,13 +4,12 @@ import { mockTransactions} from "../../data/mockData";
 import DownloadOutlinedIcon from '@mui/icons-material/DownloadOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
-import TrafficOutlinedIcon from '@mui/icons-material/TrafficOutlined';
 import LineChart from "../../components/LineChart";
 import BarChart from "../../components/BarChart";
 import GeographyChart from "../../components/GeographyChart";
 import StatBox from "../../components/StatBox";
 import ProgressCircle from "../../components/ProgressCircle";
-import { PointOfSale, PointOfSaleOutlined, TrafficOutlined } from '@mui/icons-material';
+import { PointOfSale, TrafficOutlined } from '@mui/icons-material';
 import { useTheme } from "@emotion/react";
 import { tokens } from '../../theme';
 

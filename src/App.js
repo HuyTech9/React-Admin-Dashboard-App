@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Topbar from "./scene/global/Topbar";
 import  Sidebar  from "./scene/global/Sidebar";
 import Dashboard  from "./scene/dashboard";
-import { Telegram } from "@mui/icons-material";
 import Team from "./scene/team";
 import Customer from "./scene/customer";
 import Invoices from "./scene/invoices";

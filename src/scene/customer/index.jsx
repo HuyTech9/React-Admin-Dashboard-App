@@ -1,10 +1,7 @@
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 import { tokens } from "../../theme";
 import { mockDataTeam} from "../../data/mockData";
-import LockOpenOutlinedIcon from '@mui/icons-material/LockOpenOutlined';
-import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
-import AdminPanelSettingsOutlinedIcon from '@mui/icons-material/AdminPanelSettingsOutlined';
 import Header from "../../components/Header";
 
 const Customer = () => {
